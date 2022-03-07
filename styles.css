@@ -1,0 +1,161 @@
+body {
+  background-color: #F7ECDE;
+  margin: 0;
+}
+/* background */
+.background-img {
+  background-image: url(Images/Background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 380px;
+  margin: 0;
+  width: 100%;
+}
+
+.logo {
+  color: white;
+  opacity: 0.6;
+  position: absolute;
+  top: 100px;
+  left: 46.2%;
+  font-size: 6.9rem;
+}
+
+.search-box-css {
+  background-color: white;
+  border-radius: 10px;
+  height: auto;
+  width: 50%;
+  opacity: 0.6;
+  position: absolute;
+  left: 25%;
+  top: 250px;
+  text-align: center;
+}
+
+.search-css {
+  color: grey;
+  border: none;
+  font-size: 1.8rem;
+  margin: 2px;
+  text-align: center;
+  width: 88%;
+}
+
+.search-icon {
+  color: black;
+  font-size: 1.5rem;
+}
+
+/* Navbar */
+.navbar-css {
+  background-color: #FBF8F1;
+  border-radius: 8px;
+  height: auto;
+  width: 90%;
+  opacity: 0.82;
+  position: absolute;
+  top: 2%;
+  left: 5%;
+}
+
+.title {
+  color: #54BAB9;
+  display: inline-block;
+  font-family: 'Fredoka One', cursive;
+  font-size: 2rem;
+  font-weight: normal;
+  margin: 3px;
+  width: 90%;
+}
+
+.subtext {
+  color: #54BAB9;
+  display: inline;
+  font-size: 1.5rem;
+}
+
+/* recommended */
+.recommended {
+  height: auto;
+  margin-top: 20px;
+  margin-left: 10%;
+  margin-bottom: 20px;
+  text-align: center;
+  width: 80%;
+}
+
+.reco-title {
+  color: #54BAB9;
+  font-family: 'Fredoka One', cursive;
+  font-size: 2rem;
+  font-weight: normal;
+  margin: 0 auto 20px auto;
+}
+
+.left {
+  display: inline-block;
+  margin: 0 2% 0 0;
+  width: 48%;
+
+}
+
+.right {
+  display: inline-block;
+  margin: 0;
+  width: 48%;
+}
+
+.stores {
+  background-color: #FBF8F1;
+  border-radius: 8px;
+  box-shadow: 8px 8px 8px 2px #E9DAC1;
+  height: 200px;
+  margin: 0 0 15px 0;
+  text-align: left;
+}
+
+.store-imgs {
+  float: left;
+  height: 90%;
+  margin: 10px;
+  width: 40%;
+}
+
+.store-titles {
+  color: #54BAB9;
+  display: inline;
+  font-size: 1.5rem;
+  font-family: 'Fredoka One', cursive;
+  font-weight: normal;
+  position: relative;
+  left: 1%;
+  top: 5%;
+}
+
+.store-subs {
+  color: grey;
+  font-family: 'Fredoka One', cursive;
+  font-weight: normal;
+  position: relative;
+  left: 1%;
+  top: 6%;
+}
+
+/* fotter */
+.fotter {
+  background-color: #FBF8F1;
+  margin: 0;
+  padding: 1%;
+  text-align: center;
+}
+.contact {
+  font-size: 0.85rem;
+  margin: 0 0.5% 0 0.5%;
+}
+
+.copyright {
+  color: grey;
+  font-size: 0.8rem;
+  margin: 1% 0 0 0;
+}
