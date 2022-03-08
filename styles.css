@@ -109,7 +109,7 @@ body {
 .stores {
   background-color: #FBF8F1;
   border-radius: 8px;
-  box-shadow: 8px 8px 8px 2px #E9DAC1;
+  box-shadow: 12px 8px 5px 2px #E9DAC1;
   height: 200px;
   margin: 0 0 15px 0;
   text-align: left;
@@ -124,7 +124,6 @@ body {
 
 .store-titles {
   color: #54BAB9;
-  display: inline;
   font-size: 1.5rem;
   font-family: 'Fredoka One', cursive;
   font-weight: normal;
@@ -140,6 +139,23 @@ body {
   position: relative;
   left: 1%;
   top: 6%;
+}
+
+.btn {
+  border-radius: 8px;
+  font-family: 'Fredoka One', cursive;
+  color: #54BAB9;
+  font-size: 1rem;
+  font-weight: normal;
+  padding: 10px 10px 10px 10px;
+  border: solid #54bab8 2px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #54BAB9;
+  text-decoration: none;
+  color: white;
 }
 
 /* fotter */
@@ -158,4 +174,132 @@ body {
   color: grey;
   font-size: 0.8rem;
   margin: 1% 0 0 0;
+}
+
+/* Food_list */
+.food-items {
+  height: auto;
+  margin: 2%;
+  width: 96%;
+}
+.store-fl {
+  background-color: #FBF8F1;
+  border-radius: 4% 0 0 4%;
+  box-shadow: -8px 6px 8px 4px #54BAB9;
+  float: left;
+  height: 200px;
+  margin: 0;
+  width: 40%;
+}
+
+.store-img {
+  float: left;
+  height: 90%;
+  margin: 2%;
+  width: 40%;
+}
+
+.store-title {
+  color: #54BAB9;
+  font-size: 1.5rem;
+  font-family: 'Fredoka One', cursive;
+  font-weight: normal;
+  margin: 0;
+  position: relative;
+  left: 1%;
+  top: 4%;
+}
+
+.store-sub {
+  color: grey;
+  font-family: 'Fredoka One', cursive;
+  font-weight: normal;
+}
+
+.food-list {
+  background-color: #FBF8F1;
+  float: right;
+  margin: 0;
+  text-align: center;
+  width: 60%;
+}
+
+.fl-title {
+  border-bottom: 1px solid #54BAB9;
+  color: #54BAB9;
+  font-size: 1.5rem;
+  font-family: 'Fredoka One', cursive;
+  font-weight: normal;
+  margin: 2%;
+}
+
+.items {
+  border-left: 8px solid #54BAB9;
+  border-bottom: 8px solid #54BAB9;
+  height: 200px;
+  margin: 4% auto;
+  text-align: left;
+  width: 80%;
+}
+
+.item-imgs {
+  float: left;
+    height: 90%;
+    margin: 2%;
+    width: 40%;
+}
+
+.items-title {
+  color: #54BAB9;
+  font-size: 1.5rem;
+  font-family: 'Fredoka One', cursive;
+  font-weight: normal;
+  margin: 0;
+}
+
+.items-sub {
+  color: grey;
+  font-family: 'Fredoka One', cursive;
+  font-weight: normal;
+}
+
+/* filter */
+.filter {
+  background-color: #FBF8F1;
+  border: 4px solid #E9DAC1;
+  height: 500px;
+  position: relative;
+  top: 250px;
+  left: 7.5%;
+  text-align: center;
+  width: 25%;
+}
+
+.filter-title {
+  display: inline;
+  margin: 0;
+  position: relative;
+  top: -190px;
+}
+h4 {
+  position: relative;
+  top: -190px;
+}
+
+
+.price {
+  margin: 1%;
+  font-size: 1.2rem;
+  position: relative;
+  top: -190px;
+}
+
+.fotter-2 {
+  float: none;
+  position: relative;
+  top: 1000px;
+  background-color: #FBF8F1;
+  margin: 0;
+  padding: 1%;
+  text-align: center;
 }
