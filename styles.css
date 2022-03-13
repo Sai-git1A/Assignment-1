@@ -295,9 +295,7 @@ h4 {
 }
 
 .fotter-2 {
-  float: none;
-  position: relative;
-  top: 1000px;
+  clear: both;
   background-color: #FBF8F1;
   margin: 0;
   padding: 1%;
